@@ -64,12 +64,12 @@ Para garantir o gerenciamento centralizado de todas as atividades do projeto, es
 
 O projeto será estruturado em 4 épicos, nos quais serão atribuídas as respectivas tarefas relacionadas a cada um desses temas. Essa divisão facilitará a organização e execução de todas as etapas do projeto.
 
-| Épico | Tema                      | Sprint   |
-| ----- | ------------------------- | -------- |
-| 1     | ETL e Integração de Dados | Sprint 1 |
-| 2     | Relatórios de Consumo     | Sprint 2 |
-| 3     | Alertas de Consumo        | Sprint 3 |
-| 4     | DevOps                    | Sprint 4 |
+| Épico                              | Tema                                                                                                                                          |
+|------------------------------------| ----------------------------------------------------------------------------------------------------------------------------------------------|
+| Infraestrutura de Dados e ETL      | Criação da base de dados e desenvolvimento do processo de ETL para garantir que os dados sejam coletados, tratados e carregados corretamente. |
+| Desenvolvimento de Dashboards      | Desenvolvimento de dashboards interativos para visualização e análise de dados de contas de água, energia e gás.                              |
+| Plataforma Web e Relatórios        | Criação de uma plataforma web para hospedar os dashboards e relatórios, fornecendo uma interface para análise de dados.                       |
+| Sistema de Alertas e Documentações | Implementação de um sistema de alertas para consumo anormal e conclusão do projeto com documentação e testes finais.                          |
 
 <p align="right">(<a href="#top">Scroll to top</a>)</p>
 
