@@ -14,17 +14,17 @@ Este projeto consiste no desenvolvimento de um dashboard web de alta complexidad
 
 <p align="right">(<a href="#top">Scroll to top</a>)</p>
 
-<li>Requisitos Funcionais</li>
-<ul>
-      <li>Extrair, Transformar e Carregar (ETL): Sistema para extrair, transformar e carregar dados de unidades, concessionárias, contratos e contas;</li>
-      <li>Relatórios de Consumo: Geração de relatórios de consumo total de água, energia e gás mensal, anual e média;</li>
-      <li>Alertas de Consumo: Sistema de alertas para identificar consumos acima da média dos últimos 3 meses;</li>
-</ul>
+## Requisitos
 
-<li>Requisitos Não Funcionais</li>
-<ul>
-      <li>Esteira de DevOps: Implementação de uma esteira de DevOps para garantir integração contínua e entrega contínua do projeto;</li>
-</ul>
+### Funcionais
+
+- **ETL (Extrair, Transformar, Carregar):** Implementação de um sistema robusto para extração, transformação e carregamento dos dados das faturas.
+- **Relatórios de Consumo:** Capacidade de gerar relatórios detalhados do consumo total e médio de água, energia e gás.
+- **Alertas de Consumo:** Desenvolvimento de um sistema de alertas para consumo acima da média dos últimos três meses.
+
+### Não Funcionais
+
+- **Esteira de DevOps:** Utilização de práticas de DevOps para assegurar a integração e entrega contínua do projeto.
 
 <p align="right">(<a href="#top">Scroll to top</a>)</p>
 
