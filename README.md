@@ -88,7 +88,7 @@ O projeto será estruturado em 4 épicos, nos quais serão atribuídas as respec
 | <img src = "./Documentacao/Team/imgAldrik.jpg" width="60" >   | **Lucas Barcelos**    | _Developer Team_ | [![](https://bit.ly/3f9Xo0P)](https://github.com/lucassbarcelos)       | [![](https://bit.ly/2P1ZogM)]()                                                   |
 | <img src = "./Documentacao/Team/imgAna.jpg" width="60" >      | **Leonardo Adler**    | _Developer Team_ | [![](https://bit.ly/3f9Xo0P)](https://github.com/LeoAdlerr)            | [![](https://bit.ly/2P1ZogM)]()                                                   |
 | <img src = "./Documentacao/Team/imgEmanuele.jpg" width="60" > | **Daniela Meirelles** | _Developer Team_ | [![](https://bit.ly/3f9Xo0P)](https://github.com/DanielaMeirelles)     | [![](https://bit.ly/2P1ZogM)]()                                                   |
-| <img src = "./Documentacao/Team/imgLuiz.jpg" width="60" >     | **Guilherme Alves**   | _Developer Team_ | [![](https://bit.ly/3f9Xo0P)](https://github.com/)                     | [![](https://bit.ly/2P1ZogM)]()                                                   |
+| <img src = "./Documentacao/Team/imgLuiz.jpg" width="60" >     | **Guilherme Alves**   | _Developer Team_ | [![](https://bit.ly/3f9Xo0P)](https://github.com/guilherme0066)        | [![](https://bit.ly/2P1ZogM)]()                                                   |
 
 <p align="right">(<a href="#top">Scroll to top</a>)</p>
 
