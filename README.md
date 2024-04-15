@@ -75,10 +75,11 @@ O projeto será estruturado em 4 épicos, nos quais serão atribuídas as respec
 
 ---
 ## Burndown
-<img src=""/>
+<img src="https://github.com/quarks-team/Projeto-Integrador-TecSUS/blob/main/Documents/fotos/BURNDOWN_SPRINT1.png?raw=true"/>
+
 ---
 
-DER Database
+## DER Database
 <img src="https://github.com/quarks-team/Projeto-Integrador-TecSUS-Database/blob/main/Modelagem%20do%20Banco%20-%20API_v.02.png?raw=true"/>
 
 ---
