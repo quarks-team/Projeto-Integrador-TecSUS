@@ -1,9 +1,6 @@
 [submodule "Projeto-Integrador-TecSUS-Database"]
 	path = Projeto-Integrador-TecSUS-Database
 	url = https://github.com/quarks-team/Projeto-Integrador-TecSUS-Database.git
-[submodule "Projeto-Integrador-TecSUS-Frontend"]
-	path = Projeto-Integrador-TecSUS-Frontend
-	url = https://github.com/quarks-team/Projeto-Integrador-TecSUS-Frontend.git
 [submodule "projeto-integrador-tecsus-backend"]
 	path = projeto-integrador-tecsus-backend
 	url = https://github.com/quarks-team/projeto-integrador-tecsus-backend.git
