@@ -14,6 +14,10 @@ Este projeto consiste no desenvolvimento de um dashboard web de alta complexidad
 
 <p align="right">(<a href="#top">Scroll to top</a>)</p>
 
+## Solução
+
+Nós da equipe Quarks vamos desenvolver um sistema web que irá permitir que o cliente faça o o input dos aquivos brutos com os dados de sua conta e visualize todos os dashbords e relatórios.
+
 ## Requisitos
 
 <table>
@@ -27,35 +31,21 @@ Este projeto consiste no desenvolvimento de um dashboard web de alta complexidad
     <tr>
       <td>
         <ul>
-          <li>ETL(Extract, Trasnform, Load): Implementação de um sistema robusto para extração, transformação e carregamento dos dados das Faturas e dos dados de Unidades, Concessionárias e Contratos.</li>
-          <li>Relatório de consumo: Capacidade de gerar relatórios detalhados do consumo total e médio de água e energia.</li>
-          <li>Alertas de Consumo: Desenvolvimento de um sistema de alertas para consumo acima da média dos últimos três meses.</li>
+          <li><strong>ETL(Extract, Trasnform, Load):</strong> Implementação de um sistema robusto para extração, transformação e carregamento dos dados das Faturas e dos dados de Unidades, Concessionárias e Contratos.</li>
+          <li><strong>Relatório de consumo:</strong> Capacidade de gerar relatórios detalhados do consumo total e médio de água e energia.</li>
+          <li><strong>Alertas de Consumo:</strong> Desenvolvimento de um sistema de alertas para consumo acima da média dos últimos três meses.</li>
         </ul>  
       </td>
       <td>
         <ul>
-          <li>Esteira de DevOps: Utilização de práticas de DevOps para assegurar a integração e entrega contínua do projeto.</li>
+          <li><strong>Esteira de DevOps:</strong> Utilização de práticas de DevOps para assegurar a integração e entrega contínua do projeto.</li>
         </ul>
       </td>
     </tr>
   </tbody>
 </table>
 
-### Funcionais
-
-- **ETL (Extrair, Transformar, Carregar):** Implementação de um sistema robusto para extração, transformação e carregamento dos dados das faturas.
-- **Relatórios de Consumo:** Capacidade de gerar relatórios detalhados do consumo total e médio de água, energia e gás.
-- **Alertas de Consumo:** Desenvolvimento de um sistema de alertas para consumo acima da média dos últimos três meses.
-
-### Não Funcionais
-
-- **Esteira de DevOps:** Utilização de práticas de DevOps para assegurar a integração e entrega contínua do projeto.
-
 <p align="right">(<a href="#top">Scroll to top</a>)</p>
-
-## Solução
-
-Nós da equipe Quarks vamos desenvolver um sistema web que irá permitir que o cliente faça o o input dos aquivos brutos com os dados de sua conta e visualize todos os dashbords e relatórios.
 
 Visando solucionar o projeto, o sistema será entregue em quatro sprints:
 
@@ -72,17 +62,97 @@ Visando solucionar o projeto, o sistema será entregue em quatro sprints:
 
 | Event             | Date           |
 | ----------------- | -------------- |
-| Kick-off          | -              |
+| Kick-off          | 04/03 to 08/03 |
 | Sprint 1          | 25/03 to 15/04 |
 | Sprint 2          | 15/04 to 06/05 |
 | Sprint 3          | 06/05 to 27/05 |
 | Sprint 4          | 27/05 to 17/06 |
-| Feira de Soluções | -              |
+| Feira de Soluções | 27/06          |
 
 <p align="right">(<a href="#top">Scroll to top</a>)</p>
 
 ## Product Backlog
 
+<table>
+  <thead>
+    <tr>
+      <th>Rank</th>
+      <th>Requisito</th>
+      <th>Prioridade</th>
+      <th>User Story</th>
+      <th>Story Point</th>
+      <th>Sprint</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>Infraestrutura de dados e ETL</td>
+      <td>Alta</td>
+      <td>Como usuário da plataforma, quero carregar as informações das contas de água e energia de arquivos csv para o banco de dados, para que possamos analisar e visualizar os dados de consumo de água.</td>
+      <td>8</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Relatório de consumo (Energia)</td>
+      <td>Alta</td>
+      <td>Como usuário da plataforma, quero visualizar gráficos e tabelas que representem o consumo mensal e anual de energia, para que eu possa compreender as tendências e identificar oportunidades de economia.</td>
+      <td>5</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Relatório de consumo (Água)</td>
+      <td>Alta</td>
+      <td>Como usuário da plataforma, quero visualizar gráficos e tabelas que representem o consumo mensal e anual de água, para que eu possa compreender as tendências e identificar oportunidades de economia.</td>
+      <td>5</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Infraestrutura de dados e ETL</td>
+      <td>Alta</td>
+      <td>Como usuário da plataforma, quero subir os arquivos csv em um sistema, para que possa analisar as métricas concernentes as faturas de água e energia em gráficos e relatorios.</td>
+      <td>8</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Alertas de Consumo</td>
+      <td>Alta</td>
+      <td>Como usuário da plataforma, quero receber alertas acerca dos consumo, para tomar medidas de redução de custos e alteração de contratos.</td>
+      <td>8</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>Plataforma Web</td>
+      <td>Média</td>
+      <td>Como usuário da plataforma, quero subir arquivos e visualizar relatórios em uma unica ferramenta, para que possa fazer análises estratégicas em tempo real.</td>
+      <td>6</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>Alertas de Consumo</td>
+      <td>Média</td>
+      <td>Como usuário da plataforma, quero receber alertas de alto consumo por email, para que possa tomar medidas de redução de custos.</td>
+      <td>4</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>Infraestrutura de dados e ETL</td>
+      <td>Baixa</td>
+      <td>Como usuário da plataforma, quero baixar os relatórios, para que possa fazer a análises das informações das faturas.</td>
+      <td>5</td>
+      <td>4</td>
+    </tr>
+  </tbody>
+</table>
+
+## Board
 Para garantir o gerenciamento centralizado de todas as atividades do projeto, estamos utilizando o Jira Software como nossa ferramenta principal de monitoramento de tarefas e acompanhamento de projetos.
 
 [Link para o Projeto no Jira](https://gabriel-timoteo-dos-santos.atlassian.net/jira/software/projects/API5/boards/3)
@@ -123,12 +193,12 @@ O projeto será estruturado em 4 épicos, nos quais serão atribuídas as respec
 
 | Avatar                                                     | Student               | Function         | GitHub                                                                 | LinkedIn                                                                          |
 | ---------------------------------------------------------- | --------------------- | ---------------- | ---------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
-| <img src = "./Documents/fotos/gabriel.png" width="60" >    | **Gabriel Timoteo**   | _Product Owner_  | [![](https://bit.ly/3f9Xo0P)](https://github.com/Michaelfss/gatimoteo) | [![](https://bit.ly/2P1ZogM)](https://www.linkedin.com/in/gabriel-timoteo-santos) |
-| <img src = "./Documents/fotos/felipe.png" width="60" >     | **Felipe Augusto**    | _Scrum Master_   | [![](https://bit.ly/3f9Xo0P)](https://github.com/FelipeASousa)         | [![](https://bit.ly/2P1ZogM)]()                                                   |
-| <img src = "./Documents/fotos/lucas.png" width="60" >      | **Lucas Barcelos**    | _Developer Team_ | [![](https://bit.ly/3f9Xo0P)](https://github.com/lucassbarcelos)       | [![](https://bit.ly/2P1ZogM)]()                                                   |
-| <img src = "./Documents/fotos/leonardo.png" width="60" >   | **Leonardo Adler**    | _Developer Team_ | [![](https://bit.ly/3f9Xo0P)](https://github.com/LeoAdlerr)            | [![](https://bit.ly/2P1ZogM)](https://www.linkedin.com/in/leonardo-adler-silva-6b4a37228/)                                                   |
-| <img src = "./Documents/fotos/daniela.jpg" width="60" >    | **Daniela Meirelles** | _Developer Team_ | [![](https://bit.ly/3f9Xo0P)](https://github.com/DanielaMeirelles)     | [![](https://bit.ly/2P1ZogM)]()                                                   |
-| <img src = "./Documents/fotos/guilherme.jpeg" width="60" > | **Guilherme Alves**   | _Developer Team_ | [![](https://bit.ly/3f9Xo0P)](https://github.com/guilherme0066)        | [![](https://bit.ly/2P1ZogM)]()                                                   |
+| <img src = "./Documents/Team/gabriel.png" width="60" >    | **Gabriel Timoteo**   | _Product Owner_  | [![](https://bit.ly/3f9Xo0P)](https://github.com/Michaelfss/gatimoteo) | [![](https://bit.ly/2P1ZogM)](https://www.linkedin.com/in/gabriel-timoteo-santos) |
+| <img src = "./Documents/Team/felipe.png" width="60" >     | **Felipe Augusto**    | _Scrum Master_   | [![](https://bit.ly/3f9Xo0P)](https://github.com/FelipeASousa)         | [![](https://bit.ly/2P1ZogM)]()                                                   |
+| <img src = "./Documents/Team/lucas.png" width="60" >      | **Lucas Barcelos**    | _Developer Team_ | [![](https://bit.ly/3f9Xo0P)](https://github.com/lucassbarcelos)       | [![](https://bit.ly/2P1ZogM)]()                                                   |
+| <img src = "./Documents/Team/leonardo.png" width="60" >   | **Leonardo Adler**    | _Developer Team_ | [![](https://bit.ly/3f9Xo0P)](https://github.com/LeoAdlerr)            | [![](https://bit.ly/2P1ZogM)](https://www.linkedin.com/in/leonardo-adler-silva-6b4a37228/)                                                   |
+| <img src = "./Documents/Team/daniela.jpg" width="60" >    | **Daniela Meirelles** | _Developer Team_ | [![](https://bit.ly/3f9Xo0P)](https://github.com/DanielaMeirelles)     | [![](https://bit.ly/2P1ZogM)]()                                                   |
+| <img src = "./Documents/Team/guilherme.jpeg" width="60" > | **Guilherme Alves**   | _Developer Team_ | [![](https://bit.ly/3f9Xo0P)](https://github.com/guilherme0066)        | [![](https://bit.ly/2P1ZogM)]()                                                   |
 
 <p align="right">(<a href="#top">Scroll to top</a>)</p>
 
