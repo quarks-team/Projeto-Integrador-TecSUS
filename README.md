@@ -26,18 +26,21 @@ Este projeto consiste no desenvolvimento de um dashboard web de alta complexidad
   <tbody>
     <tr>
       <td>
-      - **ETL(Extract, Trasnform, Load):** Implementação de um sistema robusto para extração, transformação e carregamento dos dados das Faturas e dos dados de Unidades, Concessionárias e Contratos
-      - **Relatório de consumo:**  Capacidade de gerar relatórios detalhados do consumo total e médio de água e energia.
-      - **Alertas de Consumo:** Desenvolvimento de um sistema de alertas para consumo acima da média dos últimos três meses.
+        <ul>
+          <li>ETL(Extract, Trasnform, Load): Implementação de um sistema robusto para extração, transformação e carregamento dos dados das Faturas e dos dados de Unidades, Concessionárias e Contratos.</li>
+          <li>Relatório de consumo: Capacidade de gerar relatórios detalhados do consumo total e médio de água e energia.</li>
+          <li>Alertas de Consumo: Desenvolvimento de um sistema de alertas para consumo acima da média dos últimos três meses.</li>
+        </ul>  
       </td>
-    </tr>
-    <tr>
       <td>
-        - **Esteira de DevOps:** Utilização de práticas de DevOps para assegurar a integração e entrega contínua do projeto.
+        <ul>
+          <li>Esteira de DevOps: Utilização de práticas de DevOps para assegurar a integração e entrega contínua do projeto.</li>
+        </ul>
       </td>
     </tr>
   </tbody>
 </table>
+
 ### Funcionais
 
 - **ETL (Extrair, Transformar, Carregar):** Implementação de um sistema robusto para extração, transformação e carregamento dos dados das faturas.
