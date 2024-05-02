@@ -108,11 +108,15 @@ O projeto será estruturado em 4 épicos, nos quais serão atribuídas as respec
 <p align="right">(<a href="#top">Scroll to top</a>)</p>
 
 ## Tecnologias utilizadas
-
+<details>
+  <summary>Ferramenta de Gestão de Projetos</summary>
+- [Jira](https://www.atlassian.com/br/software/jira)
+</details>
 <details>
 <summary>Front-End</summary>
 
-- [vue](https://vuejs.org/)
+- [Vue](https://vuejs.org/)
+- [Typescript](https://www.typescriptlang.org/)
 - [HTML](https://www.w3schools.com/css/)
 - [CSS](https://www.w3schools.com/css/)
 
@@ -121,16 +125,16 @@ O projeto será estruturado em 4 épicos, nos quais serão atribuídas as respec
 <details>
 <summary>Back-End</summary>
 
-- [Java](https://www.java.com/pt-BR/?msclkid=7faa842eb8f811ecab39772d4c1ae90b)
+- [Typescript](https://www.typescriptlang.org/)
 
-- [Spring boot](https://spring.io/projects/spring-boot)
+- [Node](https://nodejs.org/en)
 
 </details>
 
 <details>
 <summary>Database</summary>
 
-- [Oracle Autonomous Database](https://www.oracle.com/autonomous-database/)
+- [MySQL](https://www.mysql.com/))
 </details>
 
 <details>
