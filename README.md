@@ -1,4 +1,4 @@
-![image](https://github.com/quarks-team/Projeto-Integrador-TecSUS/assets/79467858/cc0a3499-95af-4510-bef8-6e928de4c82a)# API 5° Semestre - Quarks Team
+# API 5° Semestre - Quarks Team
 
 ## Tema
 
