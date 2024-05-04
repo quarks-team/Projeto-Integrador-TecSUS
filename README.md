@@ -12,12 +12,6 @@ A TecSUS realiza a coleta e processamento de contas de energia, água e gás par
 
 Este projeto consiste no desenvolvimento de um dashboard web de alta complexidade para análise e exibição de dados de faturas de energia, água. O objetivo é fornecer insights valiosos para empresas clientes da TecSUS, permitindo a redução de custos e otimização de contratos.
 
-<p align="right">(<a href="#top">Scroll to top</a>)</p>
-
-## Solução
-
-Nós da equipe Quarks vamos desenvolver um sistema web que irá permitir que o cliente faça o o input dos aquivos brutos com os dados de sua conta e visualize todos os dashbords e relatórios.
-
 ## Requisitos
 
 <table>
@@ -47,7 +41,11 @@ Nós da equipe Quarks vamos desenvolver um sistema web que irá permitir que o c
 
 <p align="right">(<a href="#top">Scroll to top</a>)</p>
 
+## Solução
 
+Nós da equipe Quarks vamos desenvolver um sistema web que irá permitir que o cliente faça o o input dos aquivos brutos com os dados de sua conta e visualize todos os dashbords e relatórios.
+
+<p align="right">(<a href="#top">Scroll to top</a>)</p>
 
 ## Schedule
 
