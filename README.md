@@ -183,7 +183,7 @@ O projeto será estruturado em 4 épicos, nos quais serão atribuídas as respec
 | <img src = "./Documents/Team/leonardo.png" width="60" >   | **Leonardo Adler**    | _Developer Team_ | [![](https://bit.ly/3f9Xo0P)](https://github.com/LeoAdlerr)            | [![](https://bit.ly/2P1ZogM)](https://www.linkedin.com/in/leonardo-adler-silva-6b4a37228/)                                                   |
 | <img src = "./Documents/Team/daniela.jpg" width="60" >    | **Daniela Meirelles** | _Developer Team_ | [![](https://bit.ly/3f9Xo0P)](https://github.com/DanielaMeirelles)     | [![](https://bit.ly/2P1ZogM)]()                                                   |
 | <img src = "./Documents/Team/guilherme.jpeg" width="60" > | **Guilherme Alves**   | _Developer Team_ | [![](https://bit.ly/3f9Xo0P)](https://github.com/guilherme0066)        | [![](https://bit.ly/2P1ZogM)]()                                                   |
-
+| <img src = "./Documents/Team/guilherme.jpeg" width="60" > | **Felipe Sobral**     | _Developer Team_ | [![](https://bit.ly/3f9Xo0P)](https://github.com/SoSoJigsaw)           | [![](https://bit.ly/2P1ZogM)]()                                                   |
 <p align="right">(<a href="#top">Scroll to top</a>)</p>
 
 ## Tecnologias utilizadas
