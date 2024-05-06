@@ -179,6 +179,13 @@ O projeto será estruturado em 4 épicos, nos quais serão atribuídas as respec
 | <img src = "./Documents/Team/felipe_sobral.jpeg" width="60" > | **Felipe Sobral**     | _Developer Team_ | [![](https://bit.ly/3f9Xo0P)](https://github.com/SoSoJigsaw)           | [![](https://bit.ly/2P1ZogM)]()                                                   |
 <p align="right">(<a href="#top">Scroll to top</a>)</p>
 
+---
+## Repositórios
+[Frontend](https://github.com/quarks-team/projeto_integrador_tecsus_frontend/tree/main)
+[Backend](https://github.com/quarks-team/projeto-integrador-tecsus-backend)
+[Database](https://github.com/quarks-team/Projeto-Integrador-TecSUS-Database)
+
+---
 ## Tecnologias utilizadas
 <details>
   <summary>Ferramenta de Gestão de Projetos</summary>
