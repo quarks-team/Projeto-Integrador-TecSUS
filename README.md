@@ -158,14 +158,7 @@ O projeto será estruturado em 4 épicos, nos quais serão atribuídas as respec
 
 <p align="right">(<a href="#top">Scroll to top</a>)</p>
 
-## MER Database
-[Modelagem do Banco](https://github.com/quarks-team/Projeto-Integrador-TecSUS-Database/blob/main/modelagem_banco_API_v.05.png)
-
 ---
-## Dashboard Screen
-<img src="https://github.com/quarks-team/Projeto-Integrador-TecSUS/blob/main/Documents/Mockup/DASHBOARD_1.png?raw=true"/>
-<img src="https://github.com/quarks-team/Projeto-Integrador-TecSUS/blob/main/Documents/Mockup/DASHBOARD_2.png?raw=true"/>
-
 
 ## Especificações Técnicas do projeto
 [Loading]
@@ -242,7 +235,7 @@ O projeto será estruturado em 4 épicos, nos quais serão atribuídas as respec
 - [Typescript](https://www.typescriptlang.org/)
 - [Power Bi](https://powerbi.microsoft.com/pt-br/desktop/)
 - [Node](https://nodejs.org/en)
-- [MySQL](https://www.mysql.com/))
+- [MySQL](https://www.mysql.com/)
   
 | Sprint   | Objetivo                                                                                          | Entrega                                                                                                                                                                          |
 | -------- | --------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -251,6 +244,15 @@ O projeto será estruturado em 4 épicos, nos quais serão atribuídas as respec
 ---
 ## Burndown
 <img src="https://github.com/quarks-team/Projeto-Integrador-TecSUS/blob/main/Documents/Burndown/BURNDOWN_SPRINT1.png?raw=true"/>
+
+---
+## MER Database
+[Modelagem do Banco](https://github.com/quarks-team/Projeto-Integrador-TecSUS-Database/blob/main/modelagem_banco_API_v.05.png)
+
+---
+## Dashboard Screen
+<img src="https://github.com/quarks-team/Projeto-Integrador-TecSUS/blob/main/Documents/Mockup/DASHBOARD_1.png?raw=true"/>
+<img src="https://github.com/quarks-team/Projeto-Integrador-TecSUS/blob/main/Documents/Mockup/DASHBOARD_2.png?raw=true"/>
 
 ---
 
@@ -267,7 +269,7 @@ O projeto será estruturado em 4 épicos, nos quais serão atribuídas as respec
 - [Typescript](https://www.typescriptlang.org/)
 - [Power Bi](https://powerbi.microsoft.com/pt-br/desktop/)
 - [Node](https://nodejs.org/en)
-- [MySQL](https://www.mysql.com/))
+- [MySQL](https://www.mysql.com/)
 - [Vue](https://vuejs.org/)
   
 | Sprint   | Objetivo                                                                                          | Entrega                                                                                                                                                                          |
@@ -279,6 +281,23 @@ O projeto será estruturado em 4 épicos, nos quais serão atribuídas as respec
 <img src=""/>
 
 ---
+## Atualização MER Database
+[Modelagem Banco](https://github.com/quarks-team/Projeto-Integrador-TecSUS/blob/main/Documents/MER/modelagem_banco_API_v.05.png)
+
+---
+## Mockup Plataforma
+[Mockup](https://www.figma.com/file/8rOktvbSKRRPjosUsZI19f/Tecsus?type=design&node-id=0%3A1&mode=design&t=QOGkxSUSIHqO3zUM-1)
+
+---
+## Dashboard de Água
+[Água](https://app.powerbi.com/links/xkuLmZTQKZ?ctid=cf72e2bd-7a2b-4783-bdeb-39d57b07f76f&pbi_source=linkShare)
+
+---
+## Plataforma
+[Sistema - Parte1](https://github.com/quarks-team/Projeto-Integrador-TecSUS/blob/main/Documents/Gifs/gif-dash-agua.gif)
+
+[Sistema - Parte2](https://github.com/quarks-team/Projeto-Integrador-TecSUS/blob/main/Documents/Gifs/gif-dash-luz.gif)
+
 
 ## Sprint 3
 ### 15/04 to 05/05
@@ -294,7 +313,7 @@ O projeto será estruturado em 4 épicos, nos quais serão atribuídas as respec
 - [Typescript](https://www.typescriptlang.org/)
 - [Power Bi](https://powerbi.microsoft.com/pt-br/desktop/)
 - [Node](https://nodejs.org/en)
-- [MySQL](https://www.mysql.com/))
+- [MySQL](https://www.mysql.com/)
 
 | Sprint   | Objetivo                                                                                          | Entrega                                                                                                                                                                          |
 | -------- | --------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -320,7 +339,7 @@ O projeto será estruturado em 4 épicos, nos quais serão atribuídas as respec
 - [Typescript](https://www.typescriptlang.org/)
 - [Power Bi](https://powerbi.microsoft.com/pt-br/desktop/)
 - [Node](https://nodejs.org/en)
-- [MySQL](https://www.mysql.com/))
+- [MySQL](https://www.mysql.com/)
 
 | Sprint   | Objetivo                                                                                          | Entrega                                                                                                                                                                          |
 | -------- | --------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
