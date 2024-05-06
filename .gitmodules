@@ -4,6 +4,7 @@
 [submodule "projeto-integrador-tecsus-backend"]
 	path = projeto-integrador-tecsus-backend
 	url = https://github.com/quarks-team/projeto-integrador-tecsus-backend.git
+	branch = main
 [submodule "projeto_integrador_tecsus_frontend"]
 	path = projeto_integrador_tecsus_frontend
 	url = https://github.com/quarks-team/projeto_integrador_tecsus_frontend.git
