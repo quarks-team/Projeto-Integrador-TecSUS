@@ -278,15 +278,15 @@ O projeto será estruturado em 4 épicos, nos quais serão atribuídas as respec
 
 ---
 ## Burndown
-<img src=""/>
+<img src="https://github.com/quarks-team/Projeto-Integrador-TecSUS/blob/main/Documents/Burndown/BURNDOWN_SPRINT2.png?raw=true"/>
 
 ---
 ## Atualização MER Database
-[Modelagem Banco](https://github.com/quarks-team/Projeto-Integrador-TecSUS/blob/main/Documents/MER/modelagem_banco_API_v.05.png)
+<img src="https://github.com/quarks-team/Projeto-Integrador-TecSUS/blob/main/Documents/MER/modelagem_banco_API_v.05.png?raw=true"/>
 
 ---
 ## Mockup Plataforma
-[Mockup](https://www.figma.com/file/8rOktvbSKRRPjosUsZI19f/Tecsus?type=design&node-id=0%3A1&mode=design&t=QOGkxSUSIHqO3zUM-1)
+[Figma](https://www.figma.com/file/8rOktvbSKRRPjosUsZI19f/Tecsus?type=design&node-id=0%3A1&mode=design&t=QOGkxSUSIHqO3zUM-1)
 
 ---
 ## Dashboard de Água
@@ -294,9 +294,10 @@ O projeto será estruturado em 4 épicos, nos quais serão atribuídas as respec
 
 ---
 ## Plataforma
-[Sistema - Parte1](https://github.com/quarks-team/Projeto-Integrador-TecSUS/blob/main/Documents/Gifs/gif-dash-agua.gif)
 
-[Sistema - Parte2](https://github.com/quarks-team/Projeto-Integrador-TecSUS/blob/main/Documents/Gifs/gif-dash-luz.gif)
+<img src="https://github.com/quarks-team/Projeto-Integrador-TecSUS/blob/main/Documents/Gifs/gif-dash-agua.gif?raw=true"/>
+<img src="https://github.com/quarks-team/Projeto-Integrador-TecSUS/blob/main/Documents/Gifs/gif-dash-luz.gif?raw=true"/>
+
 
 
 ## Sprint 3
