@@ -181,9 +181,9 @@ O projeto será estruturado em 4 épicos, nos quais serão atribuídas as respec
 
 ---
 ## Repositórios
-[Frontend](https://github.com/quarks-team/projeto_integrador_tecsus_frontend/tree/main)
-[Backend](https://github.com/quarks-team/projeto-integrador-tecsus-backend)
-[Database](https://github.com/quarks-team/Projeto-Integrador-TecSUS-Database)
+- [Frontend](https://github.com/quarks-team/projeto_integrador_tecsus_frontend/tree/main)
+- [Backend](https://github.com/quarks-team/projeto-integrador-tecsus-backend)
+- [Database](https://github.com/quarks-team/Projeto-Integrador-TecSUS-Database)
 
 ---
 ## Tecnologias utilizadas
