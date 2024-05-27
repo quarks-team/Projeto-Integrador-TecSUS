@@ -333,10 +333,36 @@ O projeto será estruturado em 4 épicos, nos quais serão atribuídas as respec
 
 ---
 ## Contribuições dos membros
+
+### Tarefas Concluídas
+
+Pontos Concluídos/ Pontos totais
+Daniela Meirelles - 8/8
+Felipe Augusto (Master) - 13/13
+Felipe Sobral - 9/9
+Gabriel Timóteo (Product Owner) - 0/5
+Gulherme A. Cursino - 6/6
+Leonardo Adler - 23/23
+Lucas Barcelos - 11/11
+
+### Tarefas por membro
+![image](https://github.com/quarks-team/Projeto-Integrador-TecSUS/assets/79467858/4aac8d8b-2e20-4fde-a98e-bfc3dce5320c)
+
+### Commits por Repositório
+
+#### Banco de Dados
 ![image](https://github.com/quarks-team/Projeto-Integrador-TecSUS/assets/79467858/11628620-55a6-4a2c-b20e-0bb76f8a42fe)
 
+#### Frontend
+![image](https://github.com/quarks-team/Projeto-Integrador-TecSUS/assets/79467858/cfd4c5a6-767c-4eab-a37a-a4a77c8ba874)
 
 
+#### Backend
+![image](https://github.com/quarks-team/Projeto-Integrador-TecSUS/assets/79467858/221d2e9b-629b-413c-82f9-a64358971dd1)
+
+
+#### Repositório de Documentação
+![image](https://github.com/quarks-team/Projeto-Integrador-TecSUS/assets/79467858/e546c498-bf58-407b-a752-5aa0a4f962c5)
 
 ## Sprint 4
 ### 15/04 to 05/05
