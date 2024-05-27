@@ -64,7 +64,7 @@ Nós da equipe Quarks vamos desenvolver um sistema web que irá permitir que o c
 | Kick-off          | 04/03 to 08/03 |
 | Sprint 1          | 25/03 to 15/04 |
 | Sprint 2          | 15/04 to 06/05 |
-| Sprint 3          | 06/05 to 27/05 |
+| Sprint 3          | 06/05 to 26/05 |
 | Sprint 4          | 27/05 to 17/06 |
 | Feira de Soluções | 27/06          |
 
@@ -318,7 +318,7 @@ O projeto será estruturado em 4 épicos, nos quais serão atribuídas as respec
 
 
 ## Sprint 3
-### 15/04 to 05/05
+### 06/05 to 26/05
 ### Épicos
 <ul>
   <li>Infraestrutura de Dados e ETL</li>
