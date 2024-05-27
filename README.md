@@ -329,9 +329,14 @@ O projeto será estruturado em 4 épicos, nos quais serão atribuídas as respec
 
 ---
 ## Burndown
-<img src=""/>
+<img src="https://github.com/quarks-team/Projeto-Integrador-TecSUS/blob/main/Documents/Burndown/BURNDOWN_SPRINT3.png?raw=true"/>
 
 ---
+## Contribuições dos membros
+![image](https://github.com/quarks-team/Projeto-Integrador-TecSUS/assets/79467858/11628620-55a6-4a2c-b20e-0bb76f8a42fe)
+
+
+
 
 ## Sprint 4
 ### 15/04 to 05/05
