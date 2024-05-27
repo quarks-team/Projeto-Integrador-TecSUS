@@ -47,6 +47,9 @@ Nós da equipe Quarks vamos desenvolver um sistema web que irá permitir que o c
 
 <p align="right">(<a href="#top">Scroll to top</a>)</p>
 
+<hr/>
+
+### Sprint Menu
 <ul>
   <li><a href="https://github.com/quarks-team/Projeto-Integrador-TecSUS?tab=readme-ov-file#sprint-1">SPRINT 1</a></li>
   <li><a href="https://github.com/quarks-team/Projeto-Integrador-TecSUS?tab=readme-ov-file#sprint-2">SPRINT 2</a></li>
