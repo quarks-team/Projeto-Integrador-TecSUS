@@ -337,13 +337,15 @@ O projeto será estruturado em 4 épicos, nos quais serão atribuídas as respec
 ### Tarefas Concluídas
 
 <p>Pontos Concluídos/ Pontos totais</p>
-- Daniela Meirelles - 8/8
-- Felipe Augusto (Master) - 13/13
-- Felipe Sobral - 9/9
-- Gabriel Timóteo (Product Owner) - 0/5
-- Gulherme A. Cursino - 6/6
-- Leonardo Adler - 23/23
-- Lucas Barcelos - 11/11
+<ul>
+  <li>Daniela Meirelles - 8/8</li>
+  <li>Felipe Augusto (Master) - 13/13</li>
+  <li>Felipe Sobral - 9/9</li>
+  <li>Gabriel Timóteo (Product Owner) - 0/5</li>
+  <li>Gulherme A. Cursino - 6/6</li>
+  <li>Leonardo Adler - 23/23</li>
+  <li>Lucas Barcelos - 11/11</li>
+</ul>
 
 ### Tarefas por membro
 ![image](https://github.com/quarks-team/Projeto-Integrador-TecSUS/assets/79467858/4aac8d8b-2e20-4fde-a98e-bfc3dce5320c)
