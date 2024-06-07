@@ -15,7 +15,7 @@ Este projeto consiste no desenvolvimento de um dashboard web de alta complexidad
 # Projeto de Gerenciamento de Consumo
 
 ## Visão Geral
-Este projeto visa desenvolver um sistema para gerenciar o consumo de recursos (água, energia e gás) de unidades, concessionárias e contratos, com a capacidade de gerar relatórios e alertas baseados nos dados coletados. Além disso, será implementada uma esteira de DevOps para assegurar a eficiência e rastreabilidade do desenvolvimento.
+Este projeto visa desenvolver um sistema para gerenciar o consumo de recursos (água e energia) de unidades, concessionárias e contratos, com a capacidade de gerar relatórios e alertas baseados nos dados coletados. Além disso, será implementada uma esteira de DevOps para assegurar a eficiência e rastreabilidade do desenvolvimento.
 
 ## Épicos
 
@@ -33,31 +33,45 @@ Este épico cobre o desenvolvimento e implementação de um processo ETL para ex
 - Desenvolvimento de processos de carga de dados no banco de dados centralizado.
 - Automatização do processo ETL utilizando ferramentas como Apache Airflow ou similares.
 
-### Épico 2: Relatórios de Consumo
+### Épico 2: Dashboards de consumo 
 #### Descrição
-Este épico envolve a criação de relatórios detalhando o consumo total de água, energia e gás de forma mensal, anual e média.
+Este épico envolve a criação de relatórios detalhando o consumo total de água e energia de forma mensal, anual e média.
 
 #### Requisitos Resolvidos
-- **R2:** Relatório de consumo total de água mensal, anual e média.
-- **R3:** Relatório de consumo total de energia mensal, anual e média.
-- **R4:** Relatório de consumo total de gás mensal, anual e média.
+- **R2:** Relatório de consumo total de água mensal, anual e média. (acima da média dos últimos 3 meses).
+- **R3:** Relatório de consumo total de energia mensal, anual e média. (acima da média dos últimos 3 meses).
 
 #### Funcionalidades Implementadas
 - Desenvolvimento de relatórios mensais, anuais e cálculo de média de consumo de água.
 - Desenvolvimento de relatórios mensais, anuais e cálculo de média de consumo de energia.
-- Desenvolvimento de relatórios mensais, anuais e cálculo de média de consumo de gás.
+
+### Épico 3: Relatórios de Consumo
+#### Descrição
+Este épico envolve a criação de relatórios detalhando o consumo total de água e energia de forma mensal, anual e média.
+
+#### Requisitos Resolvidos
+- **R2:** Relatório de consumo total de água mensal, anual e média. (acima da média dos últimos 3 meses).
+- **R3:** Relatório de consumo total de energia mensal, anual e média. (acima da média dos últimos 3 meses).
+
+#### Funcionalidades Implementadas
+- Desenvolvimento de relatórios mensais, anuais e cálculo de média de consumo de água.
+- Desenvolvimento de relatórios mensais, anuais e cálculo de média de consumo de energia.
 
 ### Épico 3: Alertas de Consumo
 #### Descrição
 Este épico abrange a implementação de um sistema de geração de alertas para notificar consumo acima da média dos últimos três meses.
 
 #### Requisitos Resolvidos
-- **R5:** Geração de alertas de consumo acima da média (acima da média dos últimos 3 meses).
+- **R6:** Geração de alertas de consumo dea água acima da média (acima da média dos últimos 3 meses) 
+- **R7:** Relatórios de consumo total de energia do tipo A mensal, anual e média.
+- **R8:** Relatório de consumo total de energia do tipo B mensal, anual e média.
+- **R9:** Relatório de consumo total de esgoto mensal, anual e média.
+- **R10:** Relatório de demanda total de energia tipo A mensal.
 
 #### Funcionalidades Implementadas
 - Definição dos critérios para identificação de consumo acima da média.
 - Desenvolvimento do mecanismo de cálculo da média de consumo dos últimos três meses.
-- Implementação do sistema de notificação de alertas (e.g., email, dashboard).
+- Implementação do sistema de notificação de alertas (dashboard).
 - Testes e validação do sistema de alertas.
 
 ### Épico 4: Esteira de DevOps
@@ -65,13 +79,12 @@ Este épico abrange a implementação de um sistema de geração de alertas para
 Este épico foca no desenvolvimento e aplicação de uma esteira de DevOps para garantir a eficiência, rastreabilidade e qualidade do desenvolvimento.
 
 #### Requisitos Resolvidos
-- **R6:** Desenvolver e aplicar uma esteira de DevOps de acordo com a solução proposta.
+- **R11:** Desenvolver e aplicar uma esteira de DevOps de acordo com a solução proposta.
 
 #### Funcionalidades Implementadas
-- Configuração do controle de versão com Git.
-- Implementação de integração contínua (CI) utilizando ferramentas como Jenkins ou GitHub Actions.
-- Configuração de deploy contínuo (CD) para ambientes de teste e produção.
-- Implementação de monitoramento e logging das aplicações.
+- Configuração do controle de versão com Git(Estratégia de Branchs).
+- Rastrabilidade dos requisitos através das tasks;
+- Implementação de integração contínua (CI) utilizando ferramentas como GitHub Actions.
 - Documentação do processo de DevOps e treinamento da equipe.
 
 
