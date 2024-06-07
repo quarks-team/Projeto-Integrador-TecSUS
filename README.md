@@ -19,32 +19,24 @@ Este projeto visa desenvolver um sistema para gerenciar o consumo de recursos (�
 
 ## Requisitos
 
-### R1
-Extrair, Transformar e Carregar os dados de Unidades, Concessionárias, Contratos e Contas.
+### R1: Extrair, Transformar e Carregar os dados de Unidades, Concessionárias, Contratos e Contas.
 
-### R2
-Relatório de consumo total de água mensal, anual e média. (acima da média dos últimos 3 meses).
+### R2: Relatório de consumo total de água mensal, anual e média. (acima da média dos últimos 3 meses).
 
-### R3
-Relatório de consumo total de energia mensal, anual e média. (acima da média dos últimos 3 meses).
+### R3: Relatório de consumo total de energia mensal, anual e média. (acima da média dos últimos 3 meses).
 
-### R4
-Geração de alertas de consumo total de água acima da média (acima da média dos últimos 3 meses).
+### R4: Geração de alertas de consumo total de água acima da média (acima da média dos últimos 3 meses).
 
-### R5
-Geração de alertas do consumo total de energia do tipo A mensal, anual e média.
+### R5: Geração de alertas do consumo total de energia do tipo A mensal, anual e média.
 
-### R6
-Geração de alertas do consumo total de energia do tipo B mensal, anual e média.
+### R6: Geração de alertas do consumo total de energia do tipo B mensal, anual e média.
 
-### R7
-Geração de alertas do consumo total de esgoto mensal, anual e média.
+### R7: Geração de alertas do consumo total de esgoto mensal, anual e média.
 
-### R8
-Geração de alertas do demanda de energia tipo A mensal.
+### R8: Geração de alertas do demanda de energia tipo A mensal.
 
-### R9
-Desenvolver e aplicar uma esteira de DevOps de acordo com a solução proposta.
+### R9: Desenvolver e aplicar uma esteira de DevOps de acordo com a solução proposta.
+
 
 ## Tabela de Requisitos e Épicos
 
