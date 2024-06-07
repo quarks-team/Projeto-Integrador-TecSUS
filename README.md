@@ -29,28 +29,36 @@ Relatório de consumo total de água mensal, anual e média. (acima da média do
 Relatório de consumo total de energia mensal, anual e média. (acima da média dos últimos 3 meses).
 
 ### R4
-Relatório de consumo total de gás mensal, anual e média.
+Geração de alertas de consumo total de água acima da média (acima da média dos últimos 3 meses).
 
 ### R5
-Geração de alertas de consumo acima da média (acima da média dos últimos 3 meses).
+Geração de alertas do consumo total de energia do tipo A mensal, anual e média.
 
 ### R6
-Geração de alertas de consumo de água acima da média (acima da média dos últimos 3 meses).
+Geração de alertas do consumo total de energia do tipo B mensal, anual e média.
 
 ### R7
-Relatórios de consumo total de energia do tipo A mensal, anual e média.
+Geração de alertas do consumo total de esgoto mensal, anual e média.
 
 ### R8
-Relatório de consumo total de energia do tipo B mensal, anual e média.
+Geração de alertas do demanda de energia tipo A mensal.
 
 ### R9
-Relatório de consumo total de esgoto mensal, anual e média.
-
-### R10
-Relatório de demanda total de energia tipo A mensal.
-
-### R11
 Desenvolver e aplicar uma esteira de DevOps de acordo com a solução proposta.
+
+## Tabela de Requisitos e Épicos
+
+| Requisito | Épico que Resolve                          |
+|-----------|--------------------------------------------|
+| R1        | Épico 1: ETL (Extrair, Transformar e Carregar) de Dados |
+| R2        | Épico 2: Dashboards de Consumo, Épico 3: Relatórios de Consumo |
+| R3        | Épico 2: Dashboards de Consumo, Épico 3: Relatórios de Consumo |
+| R4        | Épico 4: Alertas de Consumo                |
+| R5        | Épico 4: Alertas de Consumo                |
+| R6        | Épico 4: Alertas de Consumo                |
+| R7        | Épico 4: Alertas de Consumo                |
+| R8        | Épico 4: Alertas de Consumo                |
+| R9        | Épico 5: Esteira de DevOps                 |
 
 ## Épicos
 
@@ -97,11 +105,11 @@ Este épico envolve a criação de relatórios detalhando o consumo total de ág
 Este épico abrange a implementação de um sistema de geração de alertas para notificar consumo acima da média dos últimos três meses.
 
 #### Requisitos Resolvidos
-- **R6:** Geração de alertas de consumo de água acima da média (acima da média dos últimos 3 meses).
-- **R7:** Geração de alertas de consumo total de energia do tipo A mensal, anual e média.
-- **R8:** Geração de alertas de consumo total de energia do tipo B mensal, anual e média.
-- **R9:** Geração de alertas de consumo total de esgoto mensal, anual e média.
-- **R10:** Geração de alertas de demanda total de energia tipo A mensal.
+- **R4:** Geração de alertas de consumo total de água acima da média (acima da média dos últimos 3 meses).
+- **R5:** Geração de alertas do consumo total de energia do tipo A (acima da média dos últimos 3 meses).
+- **R6:** Geração de alertas do consumo total de energia do tipo B, (acima da média dos últimos 3 meses).
+- **R7:** Geração de alertas de consumo total de esgoto acima da média (acima da média dos últimos 3 meses).
+- **R8:** Geração de alertas do demanda de energia tipo A mensal.
 
 #### Funcionalidades Implementadas
 - Definição dos critérios para identificação de consumo acima da média.
@@ -114,15 +122,14 @@ Este épico abrange a implementação de um sistema de geração de alertas para
 Este épico foca no desenvolvimento e aplicação de uma esteira de DevOps para garantir a eficiência, rastreabilidade e qualidade do desenvolvimento.
 
 #### Requisitos Resolvidos
-- **R11:** Desenvolver e aplicar uma esteira de DevOps de acordo com a solução proposta.
+- **R9:** Desenvolver e aplicar uma esteira de DevOps de acordo com a solução proposta.
 
 #### Funcionalidades Implementadas
 - Configuração do controle de versão com Git (Estratégia de Branches).
 - Rastreabilidade dos requisitos através das tasks.
 - Implementação de integração contínua (CI) utilizando ferramentas como GitHub Actions.
 - Documentação do processo de DevOps e treinamento da equipe.
-
-
+  
 <p align="right">(<a href="#top">Scroll to top</a>)</p>
 
 ## Solução
