@@ -37,6 +37,8 @@ Este projeto visa desenvolver um sistema para gerenciar o consumo de recursos (�
 
 ### R9: Desenvolver e aplicar uma esteira de DevOps de acordo com a solução proposta.
 
+### R10: Desenvolvimento e configuração da plataforma Web.
+
 
 ## Tabela de Requisitos e Épicos
 
@@ -51,6 +53,7 @@ Este projeto visa desenvolver um sistema para gerenciar o consumo de recursos (�
 | R7        | Épico 4: Alertas de Consumo                |
 | R8        | Épico 4: Alertas de Consumo                |
 | R9        | Épico 5: Esteira de DevOps                 |
+| R10        | Épico 3: Relatórios de Consumo                 |
 
 ## Épicos
 
@@ -87,10 +90,12 @@ Este épico envolve a criação de relatórios detalhando o consumo total de ág
 #### Requisitos Resolvidos
 - **R2:** Relatório de consumo total de água mensal, anual e média. (acima da média dos últimos 3 meses).
 - **R3:** Relatório de consumo total de energia mensal, anual e média. (acima da média dos últimos 3 meses).
+- **R10:** Desenvolvimento e configuração da plataforma Web.
 
 #### Funcionalidades Implementadas
 - Desenvolvimento de relatórios mensais, anuais e cálculo de média de consumo de água.
 - Desenvolvimento de relatórios mensais, anuais e cálculo de média de consumo de energia.
+- Plataforma Web com acesso aos dashboards e Carga de dados através do ETL.
 
 ### Épico 4: Alertas de Consumo
 #### Descrição
