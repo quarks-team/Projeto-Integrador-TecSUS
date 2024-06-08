@@ -70,86 +70,20 @@ Nós da equipe Quarks vamos desenvolver um sistema web que irá permitir que o c
 
 <p align="right">(<a href="#top">Scroll to top</a>)</p>
 
-## Product Backlog
+| Rank | Prioridade | User Story | Tasks | Story Points | Sprint |
+|------|------------|------------|-------|--------------|--------|
+| 1    | Alta       | Como administrador, eu quero receber alertas personalizados para diferentes tipos de consumo (energia, água, esgoto) para monitorar e agir rapidamente sobre desvios de consumo. | . Adicionar Alertas de esgoto <br> . Criar relatório de alertas de demanda <br> . Adicionar alerta de demandas no endpoint de alertas <br> . Criar Trigger para popular tabela de alertas de demanda <br> . Criar uma tabela para alertas de demanda <br> . Esgoto: Criar trigger para alerta de consumo acima média dos últimos 3 meses <br> . Água: Criar trigger para alerta de consumo acima média dos últimos 3 meses <br> . Energia: Criar trigger para alerta de consumo acima média dos últimos 3 meses <br> . Criar componente do alerta <br> . Criar endpoint para buscar alertas <br> . Adicionar ícone de notificação de alertas | 13 | 0 |
+| 2    | Alta       | Como usuário, eu quero que o sistema evite duplicidade de dados para garantir a integridade das informações carregadas. | . Inserir state da requisição de upload <br> . Criar funcionalidade de impedimento de carga duplicada no banco de dados <br> . Fazer verificação de duplicidade de datas na tabela de tempo <br> . Testar requisição para API Node | 8 | 0 |
+| 3    | Alta       | Como administrador, eu quero visualizar dashboards de consumo de energia e água para analisar e comparar o consumo entre diferentes unidades e períodos. | . Inserir dashboard PowerBI de luz na interface usando <iframe> <br> . Inserir dashboard PowerBI de água na interface usando <iframe> <br> . Melhorar o Dashboard de Energia <br> . Definição dos gráficos (mockup) do Dashboard (Água) <br> . Desenvolvimento do Dashboard (Água) <br> . Criar componenete para o dashboard de luz <br> . Criar componente para o dashboard de água | 21 | 0 |
+| 4    | Média      | Como usuário, eu quero que a plataforma seja responsiva e funcione bem em diferentes dispositivos para facilitar o acesso e o uso do sistema. | . Ajustar responsividade dos elementos das páginas do frontend | 5 | 0 |
+| 5    | Alta       | Como desenvolvedor, eu quero garantir que o código seja de alta qualidade e facilmente rastreável para facilitar a manutenção e futuras implementações. | . Implementar análises estáticas no frontend <br> . Atingir alguma cobertura de código do backend <br> . Atingir meta de 25% de cobertura de código do frontend <br> . Teste BigBang <br> . Teste TopDown <br> . Teste BottomUp <br> . Refatorar CI frontEnd <br> . Finalizar documentação do ETL <br> . Documentação para rastreabilidade | 13 | 0 |
+| 6    | Alta       | Como administrador, eu quero realizar cargas e extrações de dados de forma eficiente para garantir que todas as informações estejam atualizadas e disponíveis para análise. | . Criar funcionalidade de carga na tabela de água <br> . Criar funcionalidade de carga na tabela de energia <br> . Carregamento dos dados do contrato de energia <br> . Carregamento dos dados do contrato de água <br> . Carregamento dos dados da conta de energia <br> . Transformação dos dados do contrato de energia <br> . Transformação dos dados do contrato de água <br> . Transformação dos dados da conta de energia <br> . Extração do contrato de energia <br> . Extração da conta de energia <br> . Extração do contrado de água | 21 | 0 |
+| 7    | Média      | Como administrador, eu quero que o sistema me permita exportar dados em diferentes formatos para facilitar a análise externa e a criação de relatórios. | . Criar exportação de relatório no power bi <br> . Criar um botão de exportar arquivo (pdf, xlsx, csv) | 8 | 0 |
+| 8    | Média      | Como usuário, eu quero acessar logs detalhados sobre o processamento do ETL para entender e solucionar possíveis problemas de carga de dados. | . Gerar logs para usuário a respeito do processamento do ETL <br> . Testes de integração para garantir que o ETL está funcionando corretamente com a plataforma web (testar endpoints) <br> . Criar documentação da regra de negócio do ETL | 13 | 0 |
+| 9    | Alta       | Como desenvolvedor, eu quero automatizar o processo de deploy e integração contínua para garantir uma entrega contínua e confiável do sistema. | . Devops <br> . Deploy Backend <br> . Deploy FrontEnd <br> . Criação da pipeline de CI para rodar testes | 8 | 0 |
+| 10   | Baixa      | Como usuário, eu quero que a plataforma tenha uma navegação intuitiva para facilitar o acesso às diferentes funcionalidades. | . Desenvolvimento da Estrutura Básica de Navegação <br> . Configuração Inicial da Plataforma Web <br> . Desenho da(s) tela(s) da plataforma Web | 5 | 0 |
 
-<table>
-  <thead>
-    <tr>
-      <th>Rank</th>
-      <th>Requisito</th>
-      <th>Prioridade</th>
-      <th>User Story</th>
-      <th>Story Point</th>
-      <th>Sprint</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>1</td>
-      <td>Infraestrutura de dados e ETL</td>
-      <td>Alta</td>
-      <td>Como usuário da plataforma, quero carregar as informações das contas de água e energia de arquivos csv para o banco de dados, para que possamos analisar e visualizar os dados de consumo de água.</td>
-      <td>8</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <td>2</td>
-      <td>Relatório de consumo (Energia)</td>
-      <td>Alta</td>
-      <td>Como usuário da plataforma, quero visualizar gráficos e tabelas que representem o consumo mensal e anual de energia, para que eu possa compreender as tendências e identificar oportunidades de economia.</td>
-      <td>5</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <td>3</td>
-      <td>Relatório de consumo (Água)</td>
-      <td>Alta</td>
-      <td>Como usuário da plataforma, quero visualizar gráficos e tabelas que representem o consumo mensal e anual de água, para que eu possa compreender as tendências e identificar oportunidades de economia.</td>
-      <td>5</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <td>4</td>
-      <td>Infraestrutura de dados e ETL</td>
-      <td>Alta</td>
-      <td>Como usuário da plataforma, quero subir os arquivos csv em um sistema, para que possa analisar as métricas concernentes as faturas de água e energia em gráficos e relatorios.</td>
-      <td>8</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <td>5</td>
-      <td>Alertas de Consumo</td>
-      <td>Alta</td>
-      <td>Como usuário da plataforma, quero receber alertas acerca dos consumo, para tomar medidas de redução de custos e alteração de contratos.</td>
-      <td>8</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>6</td>
-      <td>Plataforma Web</td>
-      <td>Média</td>
-      <td>Como usuário da plataforma, quero subir arquivos e visualizar relatórios em uma unica ferramenta, para que possa fazer análises estratégicas em tempo real.</td>
-      <td>6</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <td>7</td>
-      <td>Alertas de Consumo</td>
-      <td>Média</td>
-      <td>Como usuário da plataforma, quero receber alertas de alto consumo por email, para que possa tomar medidas de redução de custos.</td>
-      <td>4</td>
-      <td>3</td>
-    </tr>
-    <tr>
-      <td>8</td>
-      <td>Infraestrutura de dados e ETL</td>
-      <td>Baixa</td>
-      <td>Como usuário da plataforma, quero baixar os relatórios, para que possa fazer a análises das informações das faturas.</td>
-      <td>5</td>
-      <td>4</td>
-    </tr>
-  </tbody>
-</table>
+
 
 ## Task Board
 Para garantir o gerenciamento centralizado de todas as atividades do projeto, estamos utilizando o Jira Software como nossa ferramenta principal de monitoramento de tarefas e acompanhamento de projetos.
