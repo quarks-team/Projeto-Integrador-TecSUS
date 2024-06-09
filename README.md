@@ -12,33 +12,121 @@ A TecSUS realiza a coleta e processamento de contas de energia, água e gás par
 
 Este projeto consiste no desenvolvimento de um dashboard web de alta complexidade para análise e exibição de dados de faturas de energia, água. O objetivo é fornecer insights valiosos para empresas clientes da TecSUS, permitindo a redução de custos e otimização de contratos.
 
+# Projeto de Gerenciamento de Consumo
+
+## Visão Geral
+Este projeto visa desenvolver um sistema para gerenciar o consumo de recursos (água e energia) de unidades, concessionárias e contratos, com a capacidade de gerar relatórios e alertas baseados nos dados coletados. Além disso, será implementada uma esteira de DevOps para assegurar a eficiência e rastreabilidade do desenvolvimento.
+
 ## Requisitos
 
-<table>
-  <thead>
-    <tr>
-      <th>Requisitos Funcionais</th>
-      <th>Requisitos Não Funcionais</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>
-        <ul>
-          <li><strong>ETL(Extract, Trasnform, Load):</strong> Implementação de um sistema robusto para extração, transformação e carregamento dos dados das Faturas e dos dados de Unidades, Concessionárias e Contratos.</li>
-          <li><strong>Relatório de consumo:</strong> Capacidade de gerar relatórios detalhados do consumo total e médio de água e energia.</li>
-          <li><strong>Alertas de Consumo:</strong> Desenvolvimento de um sistema de alertas para consumo acima da média dos últimos três meses.</li>
-        </ul>  
-      </td>
-      <td>
-        <ul>
-          <li><strong>Esteira de DevOps:</strong> Utilização de práticas de DevOps para assegurar a integração e entrega contínua do projeto.</li>
-        </ul>
-      </td>
-    </tr>
-  </tbody>
-</table>
+### R1: Extrair, Transformar e Carregar os dados de Unidades, Concessionárias, Contratos e Contas.
 
+### R2: Relatório de consumo total de água mensal, anual e média. (acima da média dos últimos 3 meses).
+
+### R3: Relatório de consumo total de energia mensal, anual e média. (acima da média dos últimos 3 meses).
+
+### R4: Geração de alertas de consumo total de água acima da média (acima da média dos últimos 3 meses).
+
+### R5: Geração de alertas do consumo total de energia do tipo A mensal, anual e média.
+
+### R6: Geração de alertas do consumo total de energia do tipo B mensal, anual e média.
+
+### R7: Geração de alertas do consumo total de esgoto mensal, anual e média.
+
+### R8: Geração de alertas do demanda de energia tipo A mensal.
+
+### R9: Desenvolver e aplicar uma esteira de DevOps de acordo com a solução proposta.
+
+### R10: Desenvolvimento e configuração da plataforma Web.
+
+
+## Tabela de Requisitos e Épicos
+
+| Requisito | Épico que Resolve                          |
+|-----------|--------------------------------------------|
+| R1        | Épico 1: ETL (Extrair, Transformar e Carregar) de Dados |
+| R2        | Épico 2: Dashboards de Consumo, Épico 3: Relatórios de Consumo |
+| R3        | Épico 2: Dashboards de Consumo, Épico 3: Relatórios de Consumo |
+| R4        | Épico 4: Alertas de Consumo                |
+| R5        | Épico 4: Alertas de Consumo                |
+| R6        | Épico 4: Alertas de Consumo                |
+| R7        | Épico 4: Alertas de Consumo                |
+| R8        | Épico 4: Alertas de Consumo                |
+| R9        | Épico 5: Esteira de DevOps                 |
+| R10        | Épico 3: Relatórios de Consumo                 |
+
+## Épicos
+
+### Épico 1: ETL (Extrair, Transformar e Carregar) de Dados
+#### Descrição
+Este épico cobre o desenvolvimento e implementação de um processo ETL para extrair dados de diferentes fontes, transformá-los conforme necessário e carregá-los em um banco de dados centralizado.
+
+#### Requisitos Resolvidos
+- **R1:** Extrair, Transformar e Carregar os dados de Unidades, Concessionárias, Contratos e Contas.
+
+#### Funcionalidades Implementadas
+- Definição da estrutura do banco de dados para armazenar dados de Unidades, Concessionárias, Contratos e Contas.
+- Desenvolvimento de scripts de extração de dados de diferentes fontes (e.g., arquivos CSV, APIs).
+- Implementação da transformação de dados (e.g., limpeza, normalização).
+- Desenvolvimento de processos de carga de dados no banco de dados centralizado.
+- Automatização do processo ETL utilizando ferramentas como Apache Airflow ou similares.
+
+### Épico 2: Dashboards de Consumo
+#### Descrição
+Este épico envolve a criação de dashboards detalhando o consumo total de água e energia de forma mensal, anual e média.
+
+#### Requisitos Resolvidos
+- **R2:** Relatório de consumo total de água mensal, anual e média. (acima da média dos últimos 3 meses).
+- **R3:** Relatório de consumo total de energia mensal, anual e média. (acima da média dos últimos 3 meses).
+
+#### Funcionalidades Implementadas
+- Desenvolvimento de dashboards mensais, anuais e cálculo de média de consumo de água.
+- Desenvolvimento de dashboards mensais, anuais e cálculo de média de consumo de energia.
+
+### Épico 3: Relatórios de Consumo
+#### Descrição
+Este épico envolve a criação de relatórios detalhando o consumo total de água e energia de forma mensal, anual e média.
+
+#### Requisitos Resolvidos
+- **R2:** Relatório de consumo total de água mensal, anual e média. (acima da média dos últimos 3 meses).
+- **R3:** Relatório de consumo total de energia mensal, anual e média. (acima da média dos últimos 3 meses).
+- **R10:** Desenvolvimento e configuração da plataforma Web.
+
+#### Funcionalidades Implementadas
+- Desenvolvimento de relatórios mensais, anuais e cálculo de média de consumo de água.
+- Desenvolvimento de relatórios mensais, anuais e cálculo de média de consumo de energia.
+- Plataforma Web com acesso aos dashboards e Carga de dados através do ETL.
+
+### Épico 4: Alertas de Consumo
+#### Descrição
+Este épico abrange a implementação de um sistema de geração de alertas para notificar consumo acima da média dos últimos três meses.
+
+#### Requisitos Resolvidos
+- **R4:** Geração de alertas de consumo total de água acima da média (acima da média dos últimos 3 meses).
+- **R5:** Geração de alertas do consumo total de energia do tipo A (acima da média dos últimos 3 meses).
+- **R6:** Geração de alertas do consumo total de energia do tipo B, (acima da média dos últimos 3 meses).
+- **R7:** Geração de alertas de consumo total de esgoto acima da média (acima da média dos últimos 3 meses).
+- **R8:** Geração de alertas do demanda de energia tipo A mensal.
+
+#### Funcionalidades Implementadas
+- Definição dos critérios para identificação de consumo acima da média.
+- Desenvolvimento do mecanismo de cálculo da média de consumo dos últimos três meses.
+- Implementação do sistema de notificação de alertas (dashboard).
+- Testes e validação do sistema de alertas.
+
+### Épico 5: Esteira de DevOps
+#### Descrição
+Este épico foca no desenvolvimento e aplicação de uma esteira de DevOps para garantir a eficiência, rastreabilidade e qualidade do desenvolvimento.
+
+#### Requisitos Resolvidos
+- **R9:** Desenvolver e aplicar uma esteira de DevOps de acordo com a solução proposta.
+
+#### Funcionalidades Implementadas
+- Configuração do controle de versão com Git (Estratégia de Branches).
+- Rastreabilidade dos requisitos através das tasks.
+- Implementação de integração contínua (CI) utilizando ferramentas como GitHub Actions.
+- Documentação do processo de DevOps e treinamento da equipe.
+  
 <p align="right">(<a href="#top">Scroll to top</a>)</p>
 
 ## Solução
@@ -337,3 +425,6 @@ O projeto será estruturado em 4 épicos, nos quais serão atribuídas as respec
 ---
 
 <p align="right">(<a href="#top">Scroll to top</a>)</p>
+
+## Licença
+Este projeto está licenciado sob a licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
