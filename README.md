@@ -405,7 +405,7 @@ O projeto será estruturado em 4 épicos, nos quais serão atribuídas as respec
 ![image](https://github.com/quarks-team/Projeto-Integrador-TecSUS/assets/79467858/e546c498-bf58-407b-a752-5aa0a4f962c5)
 
 ## Sprint 4
-### 15/04 to 05/05
+### 27/05 to 16/06
 ### Épicos
 <ul>
   <li>Infraestrutura de Dados e ETL</li>
@@ -426,9 +426,24 @@ O projeto será estruturado em 4 épicos, nos quais serão atribuídas as respec
 
 ---
 ## Burndown
-<img src=""/>
+<img src="https://github.com/quarks-team/Projeto-Integrador-TecSUS/assets/79467858/ae04f55b-144f-470a-934b-c0c009f981f4"/>
 
 ---
+### Tarefas por membro
+![image](https://github.com/quarks-team/Projeto-Integrador-TecSUS/assets/79467858/c54af07b-b28a-4bfe-9b51-85069119a77f)
+
+### Tarefas Concluídas
+
+<p>Pontos Concluídos/ Pontos totais</p>
+<ul>
+  <li>Daniela Meirelles - 8/8</li>
+  <li>Felipe Augusto (Master) - 10/10</li>
+  <li>Felipe Sobral - 11/11</li>
+  <li>Gabriel Timóteo (Product Owner) - 5/5</li>
+  <li>Gulherme A. Cursino - 7/7</li>
+  <li>Leonardo Adler - 15/15</li>
+  <li>Lucas Barcelos - 12/12</li>
+</ul>
 
 <p align="right">(<a href="#top">Scroll to top</a>)</p>
 
