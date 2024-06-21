@@ -447,5 +447,8 @@ O projeto será estruturado em 4 épicos, nos quais serão atribuídas as respec
 
 <p align="right">(<a href="#top">Scroll to top</a>)</p>
 
+## Documentação do Projeto
+Para visualizar a documentação completa [clique aqui.](https://github.com/quarks-team/Projeto-Integrador-TecSUS/wiki)
+
 ## Licença
 Este projeto está licenciado sob a licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
